@@ -63,6 +63,9 @@ ORDER BY ADDRESS_ID
  FROM REMOVE_DUPLICATES
  ORDER BY CLIENT_ID
 
+---Insert new metrics like revenue in transform power bi
+= [UNIT_PRICE] * [QUANTITY_OF_ITEMS_SOLD]
+
 
 
 
